@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Coderbanking, a tu servicio">
+    <!-- Color del tema en Mobile -->
+    <meta name="theme-color" content="#6600FF">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <!-- Descripción del sitio web -->
+    <meta property="og:description" content="CoderBanking, el banco que mejor se ajusta a tu estilo.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;600;900&display=swap" rel="stylesheet">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">    
+    <title>Bacalá alla mantecata - Registro</title>
+</head>
+<body class="register-body">
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-sm navbar-secondary bg-secondary shadow fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#"><span class="navbar-title ps-3">Bacalá alla mantecata</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary btn-sm m-2" aria-current="page" href="log-in.html">¿Already have an account? ¡Log in!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary btn-sm m-2" href="../index.html">Go back to home page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="h-100 pt-5">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card mx-3">
+                <div class="card-header">
+                    <div class="d-flex justify-content-center">
+                        <span>
+                            <a class="mt-4 mb-2" alt="Gimme ur data">
+                        </span>
+                    </div>
+                    <h3 class="d-flex justify-content-center">Gimme ur data</h3>
+                </div>
+                <div class="card-body">
+                    <form id="registerForm">
+                        <div class="input-group">
+                            <span class="input-group-text"><ion-icon size="large" name="person"></ion-icon></span>
+                            <input id="registerUser" type="text" name="user" class="form-control" placeholder="Username">
+                            <small class="col-12 mt-1"><p></p></small>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text"><ion-icon size="large" name="key"></ion-icon></span>
+                            <input id="registerPassword" type="password" name="password" class="form-control" placeholder="Password">
+                            <small class="col-12 mt-1"><p></p></small>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text"><ion-icon size="large" name="key-outline"></ion-icon></span>
+                            <input id="sameRegisterPassword" type="password" name="repassword" class="form-control" placeholder="Repeat password">
+                            <small class="col-12 mt-1"><p></p></small>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text"><ion-icon size="large" name="mail"></ion-icon></span>
+                            <input id="mail" type="mail" class="form-control" name="mail" placeholder="E-mail">
+                            <small class="col-12 mt-1"><p></p></small>
+                        </div>
+                        <div class="row remember">
+                            <div class="input-group">
+                                <input type="checkbox" id="checkAceptar" name="checkAceptar"><p class="m-0 p-0">Accept to everything and more</p>
+                                <small class="col-12"><p></p></small>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end pt-4 gap-3">
+                            <button type="submit" class="btn register_btn">Send</button>
+                            <button type="reset" class="btn register_btn">Erase</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../src/register.js"></script>
+    <script src="../src/configuracionUsuarios.js"></script>
+    <script src="../src/validacionesUsuario.js"></script>
+</body>
+</html>
