@@ -11125,12 +11125,19 @@ textarea.form-control-lg {
 }
 
 html, body {
-  background-image: linear-gradient(to right bottom, #257389, #078496, #00959e, #00a6a2, #00b7a2, #00b9b2, #00bac0, #00bacc, #00a8ec, #0090ff, #006bff, #6600ff);
+  /*background-image: linear-gradient(to right bottom, #257389, #078496, #00959e, #00a6a2, #00b7a2, #00b9b2, #00bac0, #00bacc, #00a8ec, #0090ff, #006bff, #6600ff);*/
   background-repeat: no-repeat;
   height: 100%;
   font-size: 12px;
   font-family: "Roboto Slab", serif;
   overflow-x: hidden;
+  /*-color: #663dff;
+background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);*/
+background-color: #50d8d7;
+background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+
+;
+
 }
 @media (min-width: 768px) {
   html, body {
